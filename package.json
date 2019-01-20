@@ -1,6 +1,6 @@
 {
   "name": "body-parser-jose",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Express body parser for application/jose",
   "main": "dist/index.js",
   "scripts": {
