@@ -1,0 +1,36 @@
+{
+  "name": "body-parser-jose",
+  "version": "0.0.1",
+  "description": "Express body parser for application/jose",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo 'No tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankon/body-parser-jose.git"
+  },
+  "keywords": [
+    "express",
+    "body-parser",
+    "jose"
+  ],
+  "author": "Andreas Kohn <andreas.kohn@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankon/body-parser-jose/issues"
+  },
+  "homepage": "https://github.com/ankon/body-parser-jose#readme",
+  "dependencies": {
+    "content-type": "^1.0.4",
+    "jsonwebtoken": "^8.4.0",
+    "raw-body": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/content-type": "^1.1.2",
+    "@types/jsonwebtoken": "^8.3.0",
+    "@types/node": "^10.12.18",
+    "typescript": "^3.2.4"
+  }
+}
