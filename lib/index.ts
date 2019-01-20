@@ -7,7 +7,7 @@ export function jose(contentTypes = ['application/jose']) {
     return async(req: IncomingMessage, res: ServerResponse, next: Function) => {
         try {
             const contentType = parseContentType(req);
-            if (contentTypes.includes(contentType.type)) {
+            if (contentType && contentTypes.includes(contentType.type)) {
                 const rawBody = await getRawBody(req, {
                     length: req.headers['content-length'],
                     limit: '1mb',
