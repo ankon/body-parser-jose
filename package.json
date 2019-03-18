@@ -3,8 +3,9 @@
   "version": "0.0.2",
   "description": "Express body parser for application/jose",
   "main": "dist/index.js",
+  "module": "dist.es6/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && tsc -p tsconfig.es6.json",
     "test": "echo 'No tests'"
   },
   "repository": {
@@ -32,5 +33,11 @@
     "@types/jsonwebtoken": "^8.3.0",
     "@types/node": "^10.12.18",
     "typescript": "^3.2.4"
-  }
+  },
+  "files": [
+    "index.ts",
+    "tsconfig*.json",
+    "dist",
+    "dist.es6"
+  ]
 }
