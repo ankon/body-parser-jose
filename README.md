@@ -1,6 +1,6 @@
 # body-parser-jose
 
-A middleware for Express (and compatible/similar frameworks) that handles content in (RFC 7515 JOSE format)[https://tools.ietf.org/html/rfc7515].
+A middleware for Express (and compatible/similar frameworks) that handles content in [RFC 7515 JOSE format](https://tools.ietf.org/html/rfc7515).
 
 ## Usage
 
